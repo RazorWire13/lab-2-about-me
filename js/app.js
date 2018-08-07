@@ -2,6 +2,7 @@
 
 // Get the user's name
 var userName = prompt('Heya! What is your name?');
+console.log('User was asked their name and responded with ' + userName);
 
 alert('Glad you could join me ' + userName + '! Let\'s play a little game of five Yes/No questions to see how well you know Dave. Please answer with y/n or yes/no responses.');
 
@@ -17,6 +18,7 @@ if (answerOne === 'y' ||  answerOne === 'yes') {
     }
 
 var answerTwo = prompt('Do I have any technical certifications?').toLowerCase();
+console.log('User responded to second question with ' + answerTwo);
     
 if (answerTwo === 'n' || answerTwo === 'no') {
     alert('Very good! I do not have any certs just yet');
@@ -25,6 +27,7 @@ if (answerTwo === 'n' || answerTwo === 'no') {
     }
 
 var answerThree = prompt('Did I serve in the Air Force?').toLowerCase();
+console.log('User responded to thrid question with ' + answerThree);
 
 if (answerThree === 'n' || answerThree === 'no') {
     alert('That\'s right! I served 9 years in the Army, not the "Chair Force"');
@@ -33,6 +36,7 @@ if (answerThree === 'n' || answerThree === 'no') {
     }
 
 var answerFour = prompt('Ok, do I have a love for fried pickles?').toLowerCase();
+console.log('User responded to fourth question with ' + answerFour);
 
 if (answerFour === 'y' || answerFour === 'yes') {
     alert('Got me! I LOVE frickles!!! They are the best!');
@@ -40,7 +44,8 @@ if (answerFour === 'y' || answerFour === 'yes') {
     alert('My apologies, we clearly have not hung out as you would definietly know this about me if we had.');
     }
 
-var answerFive = prompt('This one might be tough, but do I have a degree in political science?').toLowerCase;
+var answerFive = prompt('This one might be tough, but do I have a degree in political science?').toLowerCase();
+console.log('User responded to fifth question with ' + answerFive);
 
 if (answerFive === 'y' || answerFive === 'yes') {
     alert('Correct, I graduated with a BS in Poly Sci from the University of Maryland.') 
