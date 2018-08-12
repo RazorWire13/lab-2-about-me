@@ -106,8 +106,11 @@ function questionSix() {
       alert('YES! You guessed it!');
       totalScore++;
       break;
+    } else if (userNumber < faveNumber) {
+      alert('Too low! Try again.');
+      i++;
     } else {
-      alert('Nope. Please try again.');
+      alert('Sorry, too high. Please try again!');
       i++;
     }
   } while (i < 5);
